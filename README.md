@@ -85,6 +85,7 @@ df2=pd.concat([df2,enc],axis=1)
 df2
 ~~~
 <img width="573" height="358" alt="image" src="https://github.com/user-attachments/assets/18ad486f-fc31-4036-8b8a-55832a9581c7" />
+
 ~~~
 pd.get_dummies(df2,columns=["nom_0"])
 ~~~
